@@ -1,0 +1,14 @@
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\bin\Debug\netstandard2.0\XFFloatingButton.deps.json
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\bin\Debug\netstandard2.0\XFFloatingButton.dll
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\bin\Debug\netstandard2.0\XFFloatingButton.pdb
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\XFFloatingButton.csprojAssemblyReference.cache
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\Pages\Page1.xaml.g.cs
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\Pages\Page2.xaml.g.cs
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\XFFloatingButton.csproj.CoreCompileInputs.cache
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\XFFloatingButton.AssemblyInfoInputs.cache
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\XFFloatingButton.AssemblyInfo.cs
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\XFFloatingButton.dll
+C:\Projetos\XFFloatingButton\XFFloatingButton\XFFloatingButton\obj\Debug\netstandard2.0\XFFloatingButton.pdb

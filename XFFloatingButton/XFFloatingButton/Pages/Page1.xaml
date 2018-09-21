@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:XFFloatingButton.Controls"
+             x:Class="XFFloatingButton.Pages.Page1">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+                         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}">
+
+                <Label Text="Pagina 1"
+                       FontSize="Medium"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+
+            <control:FloatingButton RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-80}" 
+                                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-80}"                                    
+                                    Text="&#xf105;"
+                                    Clicked="BtnFloatingGo_OnClicked">
+
+                <control:FloatingButton.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String" Android="fa-solid-900.ttf#Font Awesome 5 Free Regular"
+                                                           iOS="Font Awesome 5 Free" />
+
+                </control:FloatingButton.FontFamily>
+            </control:FloatingButton>
+
+            <control:FloatingButton RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-210}" 
+                                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-80}"
+                                    Text="&#xf27a;"
+                                    Clicked="BtnFloatingDispalyAlert_OnClicked">
+
+                <control:FloatingButton.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String" Android="fa-solid-900.ttf#Font Awesome 5 Free Regular"
+                                                           iOS="Font Awesome 5 Free" />
+
+                </control:FloatingButton.FontFamily>
+            </control:FloatingButton>
+
+            <control:FloatingButton RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-340}" 
+                                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-80}"
+                                    Text="&#xf104;"
+                                    Clicked="BtnFloatingBack_OnClicked">
+
+                <control:FloatingButton.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String" Android="fa-solid-900.ttf#Font Awesome 5 Free Regular"
+                                                           iOS="Font Awesome 5 Free" />
+
+                </control:FloatingButton.FontFamily>
+            </control:FloatingButton>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
