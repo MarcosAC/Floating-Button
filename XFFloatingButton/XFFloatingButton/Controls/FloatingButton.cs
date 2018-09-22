@@ -9,8 +9,7 @@ namespace XFFloatingButton.Controls
             BackgroundColor = Color.FromHex("1E90FF");
             CornerRadius = 100;
             HeightRequest = 60;
-            WidthRequest = 60;
-            Text = "+";
+            WidthRequest = 60;            
             FontSize = 20;
             TextColor = Color.White;
             FontAttributes = FontAttributes.Bold;
